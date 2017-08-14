@@ -1,2 +1,6 @@
 ---
 # tasks file for healthcheck
+
+- name: Up/Down Check - Basic GET
+  uri:
+    url: https://jacob-hudson.com
