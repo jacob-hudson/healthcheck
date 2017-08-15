@@ -1,6 +1,9 @@
 ---
 # tasks file for healthcheck
 
-- name: Up/Down Check - Basic GET
-  uri:
-    url: https://jacob-hudson.com
+- hosts: 127.0.0.1
+
+  tasks:
+    - name: Up/Down Check - Basic GET
+      uri:
+        url: https://jacob-hudson.com
